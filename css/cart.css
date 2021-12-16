@@ -1,0 +1,150 @@
+.container1 .table tbody span{
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: -100px;
+    margin-left: 40px;
+    font-size: 20px!important;
+
+}
+.container1 .table tbody td:nth-child(2){
+    color: grey;
+    font-size: 23px;
+    font-weight: lighter;
+
+}
+.container1 .table tbody input{
+    font-weight: bold;
+    color: grey;
+    outline: none;
+    border: transparent;
+    width: 70px;
+    height: 30px;
+}
+.container1{
+    margin-top: 90px;
+}
+.container1 h3{
+    color: #6d6b6b;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    font-size: 35px;
+    margin-top: -20px;
+}
+.table1{
+
+}
+.table1 td{
+    position: relative;
+    padding: 30px 40px;
+    width: 200px;
+    height: 90px;!important;
+    background-color: #F2F2F2;
+}
+.table1 td h4{
+    position: absolute;
+    letter-spacing: 2px;
+    color: grey;
+
+}
+.table1 tbody{
+    color: grey;
+    margin: 0 10px;
+}
+.images{
+    position: relative;
+}
+.images img:hover{
+    box-shadow: 0 15px 10px grey;
+    transition: all ease-in 0.3s;
+    transform: scale(1.5);
+
+
+}
+tbody tr .cartimg:active{
+    box-shadow: 0 15px 10px grey;
+    z-index: 100000;
+    position: absolute;
+    transition: all linear 0.34s;
+    transform: scale(2.5) translateX(170px) translateY(70px)!important;
+}
+.button{
+    position: relative;
+    overflow: hidden;
+    z-index: 1000;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 1px solid #f5cd07;
+    padding: 20px 80px;
+    margin: 25px 120px;
+    color: #f5cd07;
+    background: black;
+
+}
+
+
+.button:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:#f5cd07;
+    transition: all ease 0.4s;
+    z-index: -1;
+}
+.button:hover{
+    color: black;
+}
+.explore:before{
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    height: 0;
+}
+.explore:hover:before{
+    transform: rotate(0);
+    height: 200%;
+}
+
+
+
+
+.button1{
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 25px 140px;
+    border: 1px solid #f5cd07;
+    background-color: black;
+    padding: 20px 80px;
+    color: #f5cd07;
+    z-index: 1000;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+
+}
+
+.button1:before{
+
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#f5cd07;
+    transition: all 0.6s;
+    z-index: -1;
+}
+.button1:hover{
+    border: 1px solid #f5cd07;
+    color: black;
+}
+.check:before{
+    border-radius: 0 0 50% 50%;
+    height: 0;
+}
+.check:hover:before{
+    height: 200%;
+    border: 1px solid #f5cd07;
+}

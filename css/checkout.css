@@ -1,0 +1,72 @@
+.class{
+    margin-top: 140px;
+    margin-left: -20px;
+    width: 55%;
+}
+.class h3{
+    color: grey;
+    margin-top: 20px;
+    margin-left: 14px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.input1{
+    margin-bottom: 10px;
+    border: none;
+    background-color:  #F6F6FF;
+    text-transform: capitalize;
+    width: 93% !important;
+    margin-left: 13px;
+    height: 50px;
+
+}
+.input2{
+
+    background-color:  #F6F6FF;
+    text-transform: capitalize;
+    width: 96.99%;
+    margin: 10px auto;
+    padding-top: 10px;
+    height: 50px;
+    border: none;
+}
+.drop{
+    margin-bottom: 10px;
+
+    border: none;
+
+    color: grey;
+    text-align: left;
+    margin-left: 13px;
+    height: 50px;
+    width: 96.9%;
+    background-color: #F6F6FF;
+
+
+}
+
+.dropdown-menu{
+
+    width: 96.9%;
+}
+.input3{
+
+
+    border: none;
+    background-color:  #F6F6FF;
+    text-transform: capitalize;
+    width: 96.99%;
+    padding: 70px 10px;
+    margin: 10px auto;
+}
+.rest{
+    width: 22%;
+    margin-top: 227px;
+    height: 450px;
+    background-color:#F6F6FF ;
+}
+.btn2{
+    height: 65px!important;
+    margin-top: 120px;
+    margin-left: 70px;
+}

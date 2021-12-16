@@ -1,0 +1,122 @@
+
+.about{
+    margin: 0 auto;
+    margin-top: -120px!important;
+    width: 76%;
+    height: 1500px;
+}
+.carousel-indicators{
+    position: absolute;
+    top: 600px;
+}
+.carousel-control-prev{
+    color: white;
+    margin-top: 420px;
+    border-radius: 50%;
+    background-color: black;!important;
+    padding: 10px 10px;
+    height: 80px;
+    width: 80px;
+}
+.carousel-control-next{
+    color: white;
+    margin-top: 420px;
+    border-radius: 50%;
+    background-color: black;!important;
+    padding: 10px 10px;
+    height: 80px;
+    width: 80px;
+
+}
+.product1{
+
+   right: -20px;
+    bottom: 330px;
+    position: absolute;
+
+}
+.product1 h5{
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.product1 h3{
+    letter-spacing: 2px;
+}
+.product1 a{
+    text-decoration: none;
+    color: grey;
+    position: absolute;
+    bottom: 26px;
+    left: 380px;
+}
+.product1 p{
+    color: grey;
+    letter-spacing: 1px;
+    font-size: 18px;
+  font-family: sans-serif;
+    position: absolute;
+    bottom: -210px;
+}
+.carousel-inner .carousel-item .video1{
+    width: 95%;
+    height:800px!important;
+    margin-left: 30px;
+}
+.product1 hr{
+    width: 100px;
+    border-top: 3px solid #f5cd07;
+}
+.product1 span{
+    font-size: 16px;
+    font-weight: lighter;
+    color: grey
+}
+.product1 .more{
+    color: #f5cd07;
+    position: absolute;
+    bottom: -194px;
+    left: 230px;
+    z-index: 1000;
+    font-size: 18px
+}
+.wrapper .block .foot{
+    position: absolute;
+    bottom: -800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product1 .btn{
+    font-size: 20px;
+    z-index: 1000;
+    left: 120px;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: -330px;
+    width: 300px;
+    height: 80px;
+}
+.wrapper .top{
+    font-size: 18px;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #f5cd07;
+    outline: none;
+    border-radius: 50%;
+    background-color: #f5cd07;
+    color: black;
+}
+.wrapper .top:active{
+    border: 1px dot-dot-dash black!important;
+    background-color: black!important;
+    color: #f5cd07;!important;
+}
+.wrapper .top:hover{
+    border: 1px solid black!important;
+    background-color: black!important;
+    color: #f5cd07;!important;
+}
